@@ -1,0 +1,83 @@
+#profileInfo {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin: 3em 1.5em;
+}
+
+#contentDiv {
+    overflow: hidden;
+}
+
+#channelPfp {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    display: none;
+}
+
+#channelName {
+    margin: 0.5em 0;
+    margin-top: 0;
+}
+
+#channelHandle {
+    margin: 0;
+    font-weight: normal;
+    color: gray;
+}
+
+#channelSubcount, #channelVidcount {
+    color: gray;
+    margin: 0.5em 0;
+}
+
+#channelInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#videoCard {
+    background-color: rgb(30, 30, 30);
+    border-radius: 1em;
+    padding: 1em;
+    width: calc(30em);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+#videoCard:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+#videoTitle {
+    color: white;
+    text-decoration: none;
+}
+
+#videoCreator {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+#videoThumbnail {
+    width: 30em;
+    border-radius: 1em;
+    margin: 0em auto;
+    display: none;
+}
+
+#recentVideos {
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+    overflow: scroll;
+}
+
+#recentVideosTitle {
+    margin: 1em;
+}
